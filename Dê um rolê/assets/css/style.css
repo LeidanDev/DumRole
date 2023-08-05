@@ -1,0 +1,105 @@
+body,
+header {
+    background: rgb(47, 206, 252);
+    background: linear-gradient(180deg, rgb(169, 227, 243) 0%, rgb(233, 159, 240) 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+.carrosselDiv {
+    background: rgb(54, 60, 59);
+    background: linear-gradient(270deg, rgba(54, 60, 59, 1) 0%, rgb(4, 213, 255) 47%, rgba(54, 62, 64, 1) 100%);
+    padding: 1em;
+    border-radius: 30em;
+    width: 65%;
+    margin-left: 20em;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+a {
+    padding: 1em;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+footer {
+    padding-top: 15em;
+}
+
+.card {
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    border: solid 1px black;
+}
+
+
+.rows {
+
+    height: 100vh;
+}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    min-height: calc(1.5em + .75rem + 2px);
+    padding: .575rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.card {
+
+    padding: 20px;
+    background: linear-gradient(139deg, rgb(130, 240, 231) 0%, rgb(146, 138, 238) 100%);
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #f9a826;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+.border-rad {
+
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+
+    color: #fff;
+    background-color: rgb(24, 93, 241);
+    border-color: #fffefc;
+}
+
+
+
+
+.border-rad:hover {
+
+    background-color: #0833f1;
+    border-color: #030303;
+
+}
